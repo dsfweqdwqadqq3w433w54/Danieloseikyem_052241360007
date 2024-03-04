@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    text-transform: capitalize; 
+    transition: all 0.2s linear;
+}
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 11vh;
+    font-size: 20px;
+    padding: 0 10px;
+    background: rgb(245, 242, 238);
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+   
+
+    
+ }.header .head ul li{
+     list-style-type: none;
+     text-transform: capitalize;
+     margin: 23px;
+     font-size: 23px;
+     
+ }
+ 
+.header .seacrh{
+    position: relative;
+    width: 240px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #222;
+    font-weight: normal;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 10px;
+    text-align: center;  
+}
+.header ul li a:hover{
+    font-size: 28px;
+    border: 1px solid black;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(45deg,#fff,#ff3333);
+}
+.search-bar{
+    position: relative;
+    margin: 15px 5px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    transition: 0.6s all ease-in-out;
+    background:#c9c4c4;
+    
+}
+
+.search-bar:focus-visible{
+    outline:none;
+    box-shadow: 0px 0px 4px 4px #e9093d;
+}
+nav{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    float: left;
+
+}
+nav a{
+    position: relative;
+    display: flex;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 90px;
+    z-index: 1;
+    
+}
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 100%;
+    background: linear-gradient(45deg,#4f1919,#ff3333);
+    background-attachment: scroll;
+    border-radius: 8px;
+    transition: .5s;
+}
+nav a:nth-child(0):hover~span{
+    left: 0;
+}
+nav a:nth-child(1):hover~span{
+left: 245px;
+
+}
+nav a:nth-child(2):hover~span{
+    left: 480px;
+    width: 100px;
+    }
+nav a:nth-child(3):hover~span{
+        left: 720px;
+        width: 140px;
+}
+nav a:nth-child(4):hover~span{
+    left: 1000px;
+    width: 140px;
+}
+nav a:nth-child(5):hover~span{
+    left: 1286px;
+}
+nav  a:hover{
+    font-size:20px ;
+}
+.full{
+    height: 70vh;
+  width: 100%;
+  color: white;
+  font: bold 6.5em/2em monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: linear-gradient(to top, #080513ba, #0e0911cc), url(image/Premium\ Photo\ _\ Collection\ of\ medical\ flasksscience\ glass\ flask\ blue\ chemistry\ laboratoryconcept\ of\ medicine.jpg) no-repeat top center;
+  background-size: cover;
+  background-position: center;
+}
+.full h2{
+    text-align: center;
+    margin: 200px;
+    font-size: 60px;
+}
+.per{
+    font-size: 25px;
+    margin: 20px;
+}
+.per1{
+    font-size: 25px;
+    margin: 20px;
+}
+.per2{
+    font-size: 25px;
+    margin: 20px;
+}
+.special-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;  
+    padding: 25px;
+    
+  }
+  
+  .special-box {
+    background:rgb(245, 242, 238) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .special-box img {
+    max-width: 90%;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .special-box img:hover{
+    max-width: 100%;
+  }
+  
+  .special-box h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .special-box h2:hover{
+    font-size: 30px;
+  }
+  
+  .special-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .special-box p:hover{
+    font-size: 20px;
+  }
+.call{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 25px;
+    text-align: center;
+}
+.call ul{
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    height: 50vh;
+    width: 30%;
+    margin:  0 550px;
+    text-align: center;
+    background: linear-gradient(60deg,#f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82);
+}
+.call ul li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 24px;
+    font-size: 20px;
+    color: white;
+}
+.call ul li:hover{
+    font-size: 25px;
+}
+.row1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background:#1b2945;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    
+    
+}
+.row1 .col-lg-3 ul li{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    text-wrap: wrap;
+    font-size: 15px;
+    transition: all 0.2s linear;
+    margin: 5px 0;
+    color: #fff;
+}
+.row1 .col-lg-3 ul li:hover{
+    font-size: 20px;
+}
+.row1 .col-lg-3 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row1 .col-lg-3 ul p{
+     font-size: 26px;
+     color: #4CAF50;
+}
+.bg-dark-1  h6{
+    text-align: center;
+    background-color: #1b2945;
+    padding: 18px;
+    font-size: larger;
+    color: #fff;
+}
